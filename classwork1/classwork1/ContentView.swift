@@ -18,7 +18,9 @@ struct ContentView: View {
                 Text("Hi, my name is Dhai")
                 Text("I'm 19 years old")
                 Text("I'm taking a coded course")
-                
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .padding()
                 HStack{
                   Image(systemName: "moon")
                         .foregroundColor(.white)
