@@ -16,7 +16,13 @@ struct ContentView: View {
                 .scaledToFit()
             VStack {
                 Text("Hi, my name is Dhai")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .padding()
                 Text("I'm 19 years old")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .padding()
                 Text("I'm taking a coded course")
                     .font(.largeTitle)
                     .foregroundColor(.white)
